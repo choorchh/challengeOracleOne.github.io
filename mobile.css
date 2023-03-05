@@ -1,0 +1,146 @@
+/*Mobile*/
+@media screen and (max-width: 767px) {
+    .tudo{
+        padding: 0;
+        margin: auto;
+    }
+    /*Menu*/
+    .menu {
+        display: block;
+        justify-content: center;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .title__img{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menu__header {
+        display: block;
+    }
+    .menu__title{
+        font-size: 34px;
+    }
+    .menu__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu__list__item {
+        margin-right: 50px;
+        margin-bottom: 1rem;
+    }
+    
+    .menu__list__item a {
+        font-size: 20px;
+        padding: 5px;
+        display: block;
+        text-align: center;
+    }
+    #botonMovil, #labelMovil {
+        visibility: hidden;
+      }
+    .menu__list__item a:last-child {
+        font-size: 16px;
+      }
+    
+/*Titulo*/
+section.title{
+    padding: 31px;
+}
+.title__div{
+    display: block;
+}
+.title__profile{
+    position: relative;
+    left: 0;
+    max-width: 200px;
+    max-height: 200px;
+}
+.title__bio{
+    font-size: 22px;
+    line-height: 26px;
+}
+.title__subsection{
+    font-size: 14px;
+line-height: 16px;
+}
+.title__network{
+    padding: 0;
+}
+/*Sección sobre mi*/
+.about__title{
+    font-size: 22px;
+    line-height: 26px;
+}
+.about__paragraph{
+    font-size: 14px;
+    line-height: 16px;
+}
+/*Skills*/
+.skills__line ,.hobbies__line{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.skills__name{
+    font-size: 14px;
+   padding-right: 0;
+}
+
+/*Formación Académica*/
+section.academic{
+    padding: 0;
+    margin: 0;
+}
+.academic__courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.academic__courses__list img {
+    max-width: 241px;
+    max-height: 163px;
+    align-items: center;
+}
+/*Experiencia Profesional*/
+section .experiencie__box {
+    margin: 0;
+    padding: 0;
+}
+.experience__img{
+    max-width: 296px;
+    max-height: 144px;
+    margin-top: 30px;
+}
+.experiencie__box{
+    display: flex;
+    flex-direction: column;
+}
+.experience__description{
+   display: block;
+}
+/*Contacto*/
+.formcontato__img{
+    display: none;
+}
+.formcontato__subtext{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+.formcontato__text{
+   align-items: center;
+}
+.formcontato__input{
+    max-width: 220px;
+    height: 56px;
+}
+.formcontato__textarea{
+   max-width: 220px;
+   min-width: 10px;
+    height: 133px;
+}
+/*Footer*/
+
+}
+
