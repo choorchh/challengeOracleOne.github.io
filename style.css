@@ -73,7 +73,7 @@ a{
     justify-content: space-between;
     align-items: center;
     gap: 208px;
-    padding: 64px;
+    padding: 0 64px;
   }
   .title__profile{
     border-radius: 100%;
@@ -81,7 +81,6 @@ a{
     max-height: 250px;
   }
   .title__img{
-    padding-top: 50px;
     margin-left: 10px;
   }
   .title__div{
@@ -356,6 +355,14 @@ align-items: flex-start;
   height: 51px;
   background: #2A7AE4;
   border-bottom: 40px;
+}
+.warnings {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: red;
+  font-size: 20px;
+  padding-top: 20px;
 }
 /*footeer*/
 section.footer{
